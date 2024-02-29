@@ -20,6 +20,8 @@ Extension fuzzing: <br>
 Page fuzzing (knowing that extension is .php): <br>
 `ffuf -w /usr/share/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP:PORT/known_directory/FUZZ.php`
 
+Recursive fuzzing:
+`ffuf -w /usr/share/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP:PORT/FUZZ -recursion -recursion-depth 1 -e .php -v`
 
 
 
