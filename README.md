@@ -46,7 +46,7 @@ Parameter POST fuzzing:<br>
 Value fuzzing (Using custom wordlist with numbers 1-1000): <br>
 `ffuf -w ids.txt:FUZZ -u http://admin.academy.htb:30333/admin/admin.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded'`
 
-###NMAP
+### NMAP
 
 Nmap offers host discovery, port scanning, service enumeration, service detection, os detection and scriptable interaction with target. 
 
