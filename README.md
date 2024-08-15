@@ -102,6 +102,8 @@ Nmap Option 	Description
 -T <0-5> 	Specifies the specific timing template.
 ```
 
+### Custom Wordlist
+cewl http://runner.htb/ | grep -v CeWL > custom-wordlist.txt
 
 ## Reverse Shell
 
